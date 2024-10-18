@@ -2,8 +2,8 @@ package be.pxl.ja.exercise;
 
 public class Pet {
 
-    private static final int MAX_ENERGY = 100;
-    private static final int MIN_ENERGY = 0;
+    public static final int MAX_ENERGY = 100;
+    public static final int MIN_ENERGY = 0;
     private int energy;
 
     public Pet(int energy) {
